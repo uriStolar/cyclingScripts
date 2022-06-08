@@ -1,0 +1,15 @@
+{
+  "name": "cyclingscripts",
+  "version": "1.0.0",
+  "description": "Some scripts that process information related to cycling",
+  "main": "index.js",
+  "scripts": {
+    "zones": "node index zones",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Uri Stolar",
+  "license": "MIT",
+  "dependencies": {
+    "yargs": "^17.5.1"
+  }
+}
