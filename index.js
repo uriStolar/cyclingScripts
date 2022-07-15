@@ -36,5 +36,10 @@ Sweet Spot	    ${formatFloat(ftp * 0.88)} W - ${formatFloat(ftp * 0.94)} W      
 Threshold	    ${formatFloat(ftp * 0.95)} W - ${formatFloat(ftp * 1.05)} W      95% – 105% FTP 
 VO2 Max	            ${formatFloat(ftp * 1.06)} W - ${formatFloat(ftp * 1.2)} W      106% – 120% FTP
 Anaerobic	    ${formatFloat(ftp * 1.2)}+ W             > 120% FTP
+
+Aerobic Treshold / Lactate Treshold 1
+aka Peter Attia MD's definition of "Z2"
+aka "keeping it under 2 mmol/L":
+${formatFloat(ftp * 0.76)} W - ${formatFloat(ftp * 0.79)} W      76% – 79% FTP  
 `);
 }
